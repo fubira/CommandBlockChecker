@@ -29,7 +29,7 @@ public class EventListeners implements Listener
     public void onPlayerInteract(final PlayerInteractEvent event)
     {
         EquipmentSlot equip = event.getHand();
-        if (!equip.equals(EquipmentSlot.HAND))
+        if (!EquipmentSlot.HAND.equals(equip))
             return;
 
         if (event.getAction() == Action.RIGHT_CLICK_BLOCK)
