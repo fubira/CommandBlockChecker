@@ -38,7 +38,7 @@ public class EventListeners implements Listener
                 String name = block.getName();
                 String command = block.getCommand();
 
-                String output = "" + name + ":'" + command + "'";
+                String output = "" + name + "(" + event.getClickedBlock().getType() + "):'" + command + "'";
                 player.sendMessage((new StringBuilder())
                     .append(ChatColor.GOLD).append("[CBChecker] ")
                     .append(ChatColor.RESET).append(output)
