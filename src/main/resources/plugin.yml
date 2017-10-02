@@ -1,0 +1,5 @@
+name: CommandBlockChecker
+author: fubira
+website: ironingot.net 
+main: net.ironingot.commandblockchecker.CommandBlockChecker
+version: 0.1
